@@ -17,7 +17,7 @@ import morning from "./images/morning.JPG";
 export const data = [
   {
     id: 1,
-    title: "Smells Like Me",
+    title: "You smell Like Me",
     artist: "Charlie Puth",
     image: smellsLikeMe,
     rating: 4.2,
@@ -25,7 +25,7 @@ export const data = [
   },
   {
     id: 2,
-    title: "I'm Good (Blue)",
+    title: "I'm Good at it (Blue)",
     artist: "David Guetta",
     image: attention,
     rating: 3.8,
@@ -33,7 +33,7 @@ export const data = [
   },
   {
     id: 3,
-    title: "Attention",
+    title: "Attention Seeker",
     artist: "New Jeans",
     image: imGood,
     rating: 5,
@@ -41,7 +41,7 @@ export const data = [
   },
   {
     id: 4,
-    title: "Hold Me Closer",
+    title: "Hold Me Closer to your heart",
     artist: "Elton John",
     image: holdMeCloser,
     rating: 4.5,
