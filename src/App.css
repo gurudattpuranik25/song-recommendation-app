@@ -33,11 +33,37 @@ header {
 .container {
   width: 95%;
   margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  background-color: white;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 8px;
   background: #c2c9d2;
+}
+
+.buttonGrid {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 3rem;
 }
 
 button {

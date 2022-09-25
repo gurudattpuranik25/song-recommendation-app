@@ -16,7 +16,7 @@ function App() {
     <div className="main">
       <header>Music Recommendation App</header>
       <div className=" outer-container">
-        <div className=" buttonGrid flex justify-center p-4 gap-9">
+        <div className=" buttonGrid ">
           <button onClick={() => filter("all")}>All</button>
           <button onClick={() => filter("pop")}>Pop</button>
           <button onClick={() => filter("indianClassic")}>
@@ -24,17 +24,10 @@ function App() {
           </button>
           <button onClick={() => filter("jazz")}>Jazz</button>
         </div>
-        <div className=" container grid grid-cols-4 gap-5 gap-y-5">
+        <div className=" container ">
           {musicData.map((item) => (
-            <div
-              key={item.id}
-              className=" card bg-white p-2 flex flex-col justify-center items-center rounded-lg"
-            >
-              <img
-                src={item.image}
-                className=" w-[15rem] h-[15rem] rounded-lg"
-                alt=""
-              />
+            <div key={item.id} className=" card">
+              <img src={item.image} alt="" />
               <span>{item.rating}⭐</span>
               <h1>{item.title}</h1>
               <p className=" underline">{item.artist}</p>
