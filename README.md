@@ -1,7 +1,5 @@
 # Song Recommendation App
 
-This application lets you choose the songs based on the category selected.
-
 Song Recommendation App is a simple application that displays a list of songs based on the selected genre.
 <br>
 
